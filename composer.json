@@ -1,0 +1,45 @@
+{
+    "type": "resume-theme",
+    "name": "resume/default-theme",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Luijten",
+            "email": "svenluijten1995@gmail.com",
+            "homepage": "https://svenluijten.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "resume/cli": "dev-master",
+        "resume/installer-plugin": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Resume\\DefaultTheme\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Resume\\DefaultTheme\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../resume-cli"
+        },
+        {
+            "type": "path",
+            "url": "../resume-cli-installer-plugin"
+        }
+    ]
+}
