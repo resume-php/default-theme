@@ -12,7 +12,7 @@
          verbose="true"
 >
     <testsuites>
-        <testsuite name="Resume Cli Default Theme Test Suite">
+        <testsuite name="Resume Default Theme Test Suite">
             <directory suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>
