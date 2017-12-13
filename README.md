@@ -18,7 +18,7 @@ pieces of functionality.
 - [License](#license)
 
 ## Installation
-This theme comes pre-installed with the package `[resume/cli](https://github.com/resume-php/cli)`,
+This theme comes pre-installed with the package [`resume/cli`](https://github.com/resume-php/cli),
 you might want to check that out.
 
 ## Contributing
