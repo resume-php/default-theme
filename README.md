@@ -14,7 +14,6 @@ pieces of functionality.
 
 ## Index
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
