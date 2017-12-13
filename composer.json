@@ -31,15 +31,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../resume-cli"
-        },
-        {
-            "type": "path",
-            "url": "../resume-cli-installer-plugin"
-        }
-    ]
+    }
 }
